@@ -1,7 +1,7 @@
 package com.blogsite.user.model;
 
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
+//import javax.persistence.GeneratedValue;
+//import javax.persistence.GenerationType;
 import javax.validation.constraints.NotBlank;
 
 import org.springframework.data.annotation.Id;
@@ -13,8 +13,8 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Document(collection = "users")
 public class User {
 
-	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	//@Id
+	//@GeneratedValue(strategy = GenerationType.AUTO)
 	private Integer userId;
 
 	//@Column(unique = true)
